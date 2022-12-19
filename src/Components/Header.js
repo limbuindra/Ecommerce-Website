@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from 'react-router-dom';
-import Login from "./buttons/Login";
+// import Login from "./buttons/Login";
 import Signup from "./buttons/Signup";
 import CartBtn from "./buttons/CartBtn";
 
@@ -47,7 +47,7 @@ const Header = () => {
 					<Link className="navbar-brand mx-auto fw-bold" to="/">
 						WE-SELL
 					</Link>
-                    <Login/>
+                    {/* <Login/> */}
 					<Signup/>
 					<CartBtn/>
 					</div>
